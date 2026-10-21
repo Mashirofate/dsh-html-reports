@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "HTML Reports",
+    "description": "Lets the model answer with a self-contained HTML report document rendered as a rich card inside the conversation."
+  }
+}

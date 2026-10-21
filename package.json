@@ -1,0 +1,55 @@
+{
+  "name": "dsh-html-reports",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "description": "Render rich HTML reports inside DeepSeek Harness: a present_html_report tool, in-chat report cards, a per-session report list, and HTML / PNG / PDF export.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mashirofate/dsh-html-reports.git"
+  },
+  "homepage": "https://github.com/Mashirofate/dsh-html-reports#readme",
+  "bugs": {
+    "url": "https://github.com/Mashirofate/dsh-html-reports/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "html",
+    "report",
+    "chart",
+    "export"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  }
+}
