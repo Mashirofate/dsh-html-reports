@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH community plugins",
+    "zh": "DSH 社区插件"
+  },
+  "description": {
+    "en": "Plugin market index for DeepSeek Harness bundles.",
+    "zh": "DeepSeek Harness 的插件市场索引。"
+  },
+  "metadata": {
+    "categories": {
+      "reports": {
+        "title": {
+          "en": "Reports and documents",
+          "zh": "报告与文档"
+        }
+      }
+    },
+    "labels": {
+      "official": {
+        "title": {
+          "en": "Built in",
+          "zh": "内置"
+        }
+      },
+      "community": {
+        "title": {
+          "en": "Community",
+          "zh": "社区"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-html-reports",
+      "title": {
+        "en": "HTML Reports",
+        "zh": "HTML 报告"
+      },
+      "description": {
+        "en": "Render rich HTML reports inside DeepSeek Harness: a present_html_report tool, in-chat report cards, a per-session report list, and HTML / PNG / PDF export.",
+        "zh": "在 DeepSeek Harness 里渲染富 HTML 报告：present_html_report 工具、会话内报告卡片、按会话过滤的报告列表，以及 HTML / PNG / PDF 导出。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkhUTUwgcmVwb3J0Ij4KICA8cmVjdCB4PSI2IiB5PSI4IiB3aWR0aD0iNTIiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSI0Ii8+CiAgPHJlY3QgeD0iMTUiIHk9IjE4IiB3aWR0aD0iMjIiIGhlaWdodD0iNSIgcng9IjIuNSIgZmlsbD0iY3VycmVudENvbG9yIi8+CiAgPHJlY3QgeD0iMTUiIHk9IjI5IiB3aWR0aD0iMTIiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9ImN1cnJlbnRDb2xvciIgb3BhY2l0eT0iMC41NSIvPgogIDxyZWN0IHg9IjMxIiB5PSIyOSIgd2lkdGg9IjgiIGhlaWdodD0iNCIgcng9IjIiIGZpbGw9ImN1cnJlbnRDb2xvciIgb3BhY2l0eT0iMC41NSIvPgogIDxwYXRoIGQ9Ik0xNSA0NyBMMjQgMzggTDMxIDQ0IEw0MCAzMyBMNDkgNDcgWiIgZmlsbD0iY3VycmVudENvbG9yIiBvcGFjaXR5PSIwLjgiLz4KPC9zdmc+",
+      "metadata": {
+        "category": "reports",
+        "keywords": [
+          "html",
+          "report",
+          "chart",
+          "export",
+          "pdf"
+        ],
+        "labels": [
+          "community"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1792566170,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Mashirofate/dsh-html-reports",
+            "commit": "1c25b71bbea8783c5428e1dd593ecc96dfa7c0fe"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0"
+          }
+        }
+      ],
+      "author": "Mashirofate",
+      "homepage": "https://github.com/Mashirofate/dsh-html-reports#readme",
+      "repository": {
+        "url": "https://github.com/Mashirofate/dsh-html-reports.git"
+      }
+    }
+  ]
+}
